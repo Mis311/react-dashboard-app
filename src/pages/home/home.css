@@ -1,6 +1,9 @@
+.{
+margin:0;
+}
+
 .home {
     flex: 4;
-    display: flex;
     background-color: white;
     width: 100%;
   }

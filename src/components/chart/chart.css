@@ -1,0 +1,14 @@
+.chart{
+margin:20px;
+
+}
+
+.analytics-container{
+    flex:3;
+    width: 100%;
+    background-color: grey;
+}
+
+.analytics-container2{
+    flex:1;
+}

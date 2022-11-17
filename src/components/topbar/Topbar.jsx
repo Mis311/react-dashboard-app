@@ -8,7 +8,11 @@ const Topbar = () => {
     <div className="topbar">
         <div className='topbar-wrapper'>
             <div className="topleft">
-                <span className='logo'>Gaktoo</span>
+                <span className='logo'>SpaceCoder</span>
+            </div>
+            <div className="topmiddle">
+              <div className='search-container'></div>
+                <span className='search'>Search</span>
             </div>
             <div className='topright'>
                 <div className='icon-container'>

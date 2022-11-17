@@ -1,7 +1,8 @@
 import "./featuredinfo.css";
 const FeaturedInfo = () => {
   return (
-    <main>
+    <main className="feature-container">
+      <h2 className="feature-title">Overview</h2>
       <div className="featured">
         <div className="featured-item">
           <span className="sessions">Sessions Completed</span>
@@ -21,18 +22,8 @@ const FeaturedInfo = () => {
             <span className="contribution-points-number">98</span>
           </div>
         </div>
-        <div className="featured-item">
-          <span className="productivity-level">Productivity Level</span>
-          <div className="productivity-level-container">
-            <span className="productivity-level-number">6</span>
-          </div>
-        </div>
       </div>
-      <div className="featured-image">
-        <div className="featured-image-container">
-          <img src=".../map.gif" alt="map-gif" width="100%" />
-        </div>
-      </div>
+      
     </main>
   );
 };

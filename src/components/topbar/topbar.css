@@ -19,17 +19,34 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  flex-direction: row;
 }
 
 .logo {
-  font-size: 20px;
+  flex-direction: row;
+  font-size: 40px;
   font-weight: bold;
-  color: #333;
+  width:30px;
+  margin:10px;
 }
 
+.title{
+  font-size: 18px;
+  font-weight: bold;
+  width:30px;
+
+}
+
+.topleft{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  flex-direction: row;
+}
 .topmiddle{
   display:flex;
-  width:80%;
+  width:70%;
   align-items: center;
   justify-content: center;
 }
@@ -38,7 +55,7 @@
 }
 
 .search-container{
-  width:100%;
+  width:70%;
   height:20px;
   display:flex;
   border-radius: 5px;

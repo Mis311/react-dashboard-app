@@ -12,54 +12,38 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item">
               <LineStyleIcon />
-              Home
+              Raffle
             </li>
             <li className="sidebar-list-item">
               <InsightsIcon />
-              Analytics
+              Progress
             </li>
             <li className="sidebar-list-item">
               <WhatshotIcon />
-              Trending
+              Chat
             </li>
           </ul>
         </div>
 
         <div className="sidebar-menu">
-          <h3 className="sidebar-title">Dashboard</h3>
+          <h3 className="sidebar-title">Inventory</h3>
           <ul className="sidebar-list">
             <li className="sidebar-list-item">
               <LineStyleIcon />
-              Home
+              Pet
             </li>
             <li className="sidebar-list-item">
               <InsightsIcon />
-              Analytics
+              Collections
             </li>
             <li className="sidebar-list-item">
               <WhatshotIcon />
-              Trending
+              Your Planet
             </li>
           </ul>
         </div>
 
-        <div className="sidebar-menu">
-          <h3 className="sidebar-title">Dashboard</h3>
-          <ul className="sidebar-list">
-            <li className="sidebar-list-item">
-              <LineStyleIcon />
-              Home
-            </li>
-            <li className="sidebar-list-item">
-              <InsightsIcon />
-              Analytics
-            </li>
-            <li className="sidebar-list-item">
-              <WhatshotIcon />
-              Trending
-            </li>
-          </ul>
-        </div>
+        
       </div>
     </div>
   );

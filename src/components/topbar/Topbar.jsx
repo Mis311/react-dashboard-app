@@ -8,10 +8,10 @@ const Topbar = () => {
     <div className="topbar">
         <div className='topbar-wrapper'>
             <div className="topleft">
-                <span className='logo'>SpaceCoder</span>
+              <img className="logo" src="../spacelogo.png" /><span className='title'>SpaceCoders</span>
             </div>
             <div className="topmiddle">
-              <div className='search-container'></div>
+              <input className='search-container' type="text" placeholder='Search by language, user, asset...'></input>
                 <span className='search'>Search</span>
             </div>
             <div className='topright'>

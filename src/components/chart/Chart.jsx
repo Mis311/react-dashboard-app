@@ -55,13 +55,15 @@ const data = [
         <h2 className="feature-title">Analytics</h2>
         <div className="analytics-container">
           <div className="analytics-item"></div>
-            <ResponsiveContainer width="100%" aspect={4/1}>
+            <ResponsiveContainer width="100%" aspect={6/2}>
               <LineChart width={500} height={300} data={data}>
                 <XAxis dataKey="name" stroke="#5550bd" /> 
               </LineChart>
             </ResponsiveContainer>
         <div className="analytics-container2">
-          <div className="analytics-item"></div>
+          <div className="analytics-item">
+            <img className="pet" src="pet.png"></img>
+          </div>
         </div>
       </div>
    </div>
